@@ -1,0 +1,94 @@
+.site-header {
+    width: 100%;
+    top: 0;
+    background: white;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 70px;
+    width: 80px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 12px 0 0;
+    justify-content: center;
+}
+
+.nav-links li a {
+    font-size: 14px;
+    color: #323f4b;
+    padding: 8px 12px;
+}
+
+@media (min-width: 760px) {
+    .nav-links {
+        margin-left: auto;
+        width: auto;
+        /*  justify-content:flex-end; */
+    }
+}
+
+.banner {
+    height: 100vh;
+    background-image: url("https://img.freepik.com/premium-photo/big-set-organic-food-black-chalkboard-fresh-raw-fruits-vegetables-nuts-mushrooms-berries-black-stone-background-top-view-copy-space_187166-28165.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-content {
+    text-align: center;
+    color: white;
+
+}
+
+.banner-content h1 {
+    color: white;
+    font-size: 45px;
+    margin: 12px 0 24px;
+}
+
+.banner-content p {
+    color: #f5f7fa;
+    font-size: 24px;
+    margin: 12px 0 24px;
+}
+
+.banner-actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+.custom-button {
+    background: #d0b200;
+    color: #ffffff;
+    border: none;
+}
+
+.custom-outline-button {
+    background: transparent;
+    color: #d0b200;
+    border: 1px solid #d0b200;
+}
+
+.custom-button,
+.custom-outline-button {
+    width: 130px;
+    height: 45px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 5px;
+}
